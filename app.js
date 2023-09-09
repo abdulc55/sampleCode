@@ -16,7 +16,7 @@ app.use(express.json());
 // Database Connection Set Up, Will Only Listen After DB Conection Has Occured.
 var port = process.env.PORT || 3000;
 
-mongoose.connect("mongodb+srv://abdulc55:pIqpes-nujpuv-vafju4@cluster0.sjytnso.mongodb.net/test", {useNewUrlParser: true})
+mongoose.connect(, {useNewUrlParser: true})
     .then((result) => app.listen(port))
     .catch((err) => console.log(err));
 
