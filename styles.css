@@ -1,0 +1,84 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+    body {
+        margin: 1rem 24rem 1rem 24rem;
+        background-color: #fafafa
+    }
+
+@media screen and (max-width: 1099px) {
+    body {
+        margin: 1rem 2rem .3rem 1rem;
+        background-color: #fafafa
+    }
+}
+.titleTop {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #0281ff;
+   padding-right: 2%;
+}
+
+.problemTitle_page {
+    text-align: center;
+    color: #1c8eff;
+    font-size: 1.9rem;
+    padding-bottom: 1%;
+}
+#title {
+    text-align: center;
+}
+
+.content_section_header {
+    text-align: center;
+    color: #4fa7ff;
+    font-size: 1.5rem;
+   
+    padding-bottom: 1%;
+    
+}
+
+.navbar-image {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    padding: 3% 2% 3% 2%;
+}
+
+pre code {
+    background-color: #ffffe9;
+    border: 1px solid #4c4c00;
+    display: block;
+    padding: 20px;
+    margin: auto;
+    position: float;
+    width:fit-content; 
+    color: #0257ff;
+  }
+
+.content_section_example {
+    text-align: center;
+    color: #4fa7ff;
+    font-size: 1.5rem;
+    padding-bottom: 1%;
+}
+
+.problemBtn {
+    background-color: #80FF80;
+    color: white;
+    margin: 20px;
+    padding: 14px;
+    font-size: 1.23rem;
+    letter-spacing: 2px;
+}
+
+.inlineCode {
+    color: #0257ff;
+}
+
+.nextButton {
+    display: flex;
+    justify-content: center;
+}
